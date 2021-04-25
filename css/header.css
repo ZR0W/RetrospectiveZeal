@@ -1,0 +1,32 @@
+
+header {
+    width: 100%;
+    background-color: #bb7777;
+    margin: auto;
+}
+
+header a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: cadetblue;
+}
