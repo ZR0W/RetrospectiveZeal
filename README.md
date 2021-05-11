@@ -4,6 +4,14 @@ This is a personal blog.
 I intend to develop every aspect of this website by hand, with minimal libraries other than pure HTML/JS/CSS.
 
 <hr>
+## Design
+- Home
+- About
+- Tabs Immortalized
+- Note Worthy
+- Thoughts Otherwise Fleeting
+
+<hr>
 ## Resources
 #### nav bar
 - https://www.web-eau.net/blog/examples-header-bootstrap
