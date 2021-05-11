@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quotable Bites</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" type="image/png" href="favicon/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="../css/quote.css">
+  <link rel="stylesheet" type="text/css" href="../css/header.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="header">
+      <a href="../index.html" class="logo">RZ</a>
+      <div class="header-right">
+        <a href="../html/about.html">About</a>
+        <a href="../html/tabs.html">Tabs</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<section>
+  <p>
+    We take in countless bits of information, be it words on pages or sound from a video.
+    When some of them are powerful enough to leave a lasting impact on us, we do well to honor them.
+    This is a space for just that.
+  </p>
+  <ul>
+    <li>
+      <b>from the Afterword for The Invisible Man by H. G. Wells</b>
+      <hr>
+      <script>
+        // fetch api usage
+        fetch("../resource/text/afterword_the_invisible_man.txt")
+                .then(response => response.text())
+                .then(text =>
+                        // console.log(text)
+                        document.getElementById("invis-man").innerText = text
+                        // to note that innerText preserves new line characters while innerHTML does not
+                )
+      </script>
+      <i id="invis-man"></i>
+    </li>
+  </ul>
+
+</section>
+
+</body>
+</html>
