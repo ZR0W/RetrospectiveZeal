@@ -7,10 +7,14 @@ I intend to develop every aspect of this website by hand, with minimal libraries
 ## Design
 - Home
 - About
+- Blog Content
+
+## Topic Ideas
 - Tabs Immortalized
 - Noteworthy
 - Thoughts Otherwise Fleeting
 - Quotable
+- Psuedo Philoso
 
 ---
 ## Resources
