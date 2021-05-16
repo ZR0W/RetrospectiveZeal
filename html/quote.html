@@ -34,7 +34,7 @@
   </p>
   <ul>
     <li>
-      <b>from the Afterword for The Invisible Man by H. G. Wells</b>
+      <b>from the Afterword for The Invisible Man by H. G. Wells, written by ???</b>
       <hr>
       <script>
         // fetch api usage
@@ -47,6 +47,21 @@
                 )
       </script>
       <i id="invis-man"></i>
+    </li>
+    <li>
+      <b>from <i>On a Stone Pillow</i> by Haruki Murakami</b>
+      <hr>
+      <script>
+        // fetch api usage
+        fetch("../resource/text/on_a_stone_pillow_quote.txt")
+                .then(response => response.text())
+                .then(text =>
+                                // console.log(text)
+                                document.getElementById("stone-pillow").innerText = text
+                        // to note that innerText preserves new line characters while innerHTML does not
+                )
+      </script>
+      <i id="stone-pillow"></i>
     </li>
   </ul>
 
