@@ -65,6 +65,35 @@
         <p><a href="quote.html#stone-pillow">Here is the quote referenced</a></p>
     </article>
 
+    <article>
+        <h2>Whilst Listening to Charlie Parker Play Bossa Nova</h2>
+        <h3> - inventing our own art we wish existed</h3>
+        <hr>
+        <script>
+            // programmatically inject article
+        </script>
+        <p id="parker-bossa">A story about our imagination and the power it has to give new life to the art we wish did existed. </p>
+        <p><i>TODO: date</i></p>
+    </article>
+
+    <article>
+        <h2>The theme of the monkey's confession</h2>
+        <h3> - a tale as illusive as the story itself</h3>
+        <hr>
+        <script>
+            // fetch api usage
+            fetch("../resource/text/shinagawa_monkey_comment.txt")
+                .then(response => response.text())
+                .then(text =>
+                        // console.log(text)
+                        document.getElementById("monkey").innerText = text
+                    // to note that innerText preserves new line characters while innerHTML does not
+                )
+        </script>
+        <p id="monkey"></p>
+        <p><i>May 20, 2021</i></p>
+    </article>
+
 </section>
 
 </body>
