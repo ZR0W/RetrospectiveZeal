@@ -15,6 +15,7 @@ I intend to develop every aspect of this website by hand, with minimal libraries
 - Thoughts Otherwise Fleeting
 - Quotable
 - Psuedo Philoso
+- Phenomenal Conclusions (conclusions about phenomena / conclusions that are phenomenally evocative)
 
 ---
 ## Resources
