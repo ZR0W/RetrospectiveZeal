@@ -16,6 +16,8 @@ I intend to develop every aspect of this website by hand, with minimal libraries
 - Quotable
 - Psuedo Philoso
 - Phenomenal Conclusions (conclusions about phenomena / conclusions that are phenomenally evocative)
+- Food Recipes
+- list articles
 
 ---
 ## Resources
