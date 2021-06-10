@@ -112,6 +112,25 @@
         <p><i>May 28, 2021</i></p>
     </article>
 
+    <article>
+        <h2>Acquired Taste</h2>
+        <h3> - what's the point?</h3>
+        <hr>
+        <script>
+            // fetch api usage
+            fetch("../resource/text/acquired_taste.txt")
+                .then(response => response.text())
+                .then(text =>
+                        // console.log(text)
+                        document.getElementById("acquired").innerText = text
+                    // to note that innerText preserves new line characters while innerHTML does not
+                )
+        </script>
+        <p id="acquired"></p>
+        <p><i>June 8, 2021</i></p>
+        <a href="https://www.reddit.com/r/cocktails/comments/8p0a57/am_i_missing_something_with_the_negroni/"><p>Here is the Reddit post referenced</p></a>
+    </article>
+
 </section>
 
 </body>
