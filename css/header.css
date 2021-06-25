@@ -1,7 +1,16 @@
+:root {
+    --main-bg-color: #e5e39c;
+    --main-text-color: #000000;
+    --secondary-text-color: #ffffff;
+    --accent-color-one: #c6f556;
+    --accent-color-two: #f3578f;
+    --accent-color-three: #bc75fc;
+}
+
 /* Style the header with a grey background and some padding */
 nav {
     overflow: hidden;
-    background-color: #e07a5f;
+    background-color: var(--accent-color-one);
     padding: 20px 10px;
 }
 
@@ -25,7 +34,7 @@ nav a.logo {
 
 /* Change the background color on mouse-over */
 nav a:hover {
-    background-color: #f2cc8f;
+    background-color: var(--accent-color-three);
     color: black;
 }
 

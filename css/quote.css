@@ -1,0 +1,25 @@
+body {
+    background-color: var(--main-bg-color);
+    margin: 0 auto;
+    font-family: "Courier New", Georgia, SansSerif;
+}
+
+section {
+    padding: 10px;
+    border-radius: 4px;
+}
+
+section ul li {
+    border-radius: 5px;
+    background-color: var(--accent-color-two);
+    margin: 5px auto;
+    padding: 15px;
+}
+
+li hr {
+    height: 10px;
+    border: none;
+    border-radius: 5px;
+    color: var(--accent-color-three);
+    background-color: var(--accent-color-three);
+}
