@@ -1,0 +1,21 @@
+body {
+    background-color: var(--main-bg-color);
+    margin: 0 auto;
+    font-family: "Courier New", Georgia, SansSerif;
+}
+
+li {
+    list-style-type: none;
+}
+
+li article {
+    border-radius: 5px;
+    background-color: var(--accent-color-two);
+    margin: 10px 10px 5px 5px;
+    padding: 15px;
+    color: var(--secondary-text-color);
+}
+
+div > img {
+    max-width: 100%;
+}
